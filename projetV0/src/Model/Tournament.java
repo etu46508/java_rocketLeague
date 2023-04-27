@@ -150,7 +150,7 @@ public class Tournament {
                 teams.remove(rnd);
             }
         }else{
-            System.out.println("le nombre d'equipe n'est pas complet");//modifier pour le sortir bien
+            System.out.println("le nombre d'equipes n'est pas complet");//modifier pour le sortir bien
         }
     }
 

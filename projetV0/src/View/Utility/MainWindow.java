@@ -23,7 +23,9 @@ public class MainWindow extends JFrame{
         mainContainer = this.getContentPane();
         JLabel iconLabel = new JLabel();
         iconLabel.setIcon(icon);
-        mainContainer.add(iconLabel);
+        iconLabel.setBounds(50,500,20,20);
+        mainContainer.add(iconLabel, BorderLayout.SOUTH);
+
         setVisible(true);
     }
 
